@@ -1,4 +1,5 @@
-//? Canva 
+"use strict";
+/* //! Canva 
 
 function draw() {
 
@@ -40,4 +41,45 @@ ctx.fill();
 
 }
 
-window.addEventListener('load', draw);
+window.addEventListener('load', draw); */
+//! Fin Canva 
+
+//! Try Catch
+/* 
+try {
+    console.log('Je suis executé');
+} catch (e) {
+    console.log("Il y a eu une erreur");
+} finally {
+    console.log('Je suis toujours executé');
+}
+throw new Error("Voici une erreur");
+
+
+function isNumber(num) {
+    if (isNaN(num)) {
+        throw new Error("Ce n'est pas un nombre");
+    } else {
+        console.log("C'est un nombre");
+    }
+} */
+
+
+//! Fin Try Catch
+
+//! Strict mode
+
+//? Le mode strict permet de rendre le code plus strict
+//? Il permet de ne pas utiliser des variables non déclarées
+//? Il permet de ne pas utiliser des mots réservés
+//? Il permet de ne pas utiliser des variables en double
+//? Il permet de ne pas utiliser des fonctions en double
+//? Il permet de ne pas utiliser des paramètres en double
+
+/* voiture = "BMW";
+console.log(voiture);
+ */
+
+//! Fin Strict mode
+
+//! Bundler pour compiler le code exemple : Webpack ou Parcel
