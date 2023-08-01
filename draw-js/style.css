@@ -5,7 +5,15 @@ body {
   cursor: crosshair;
 }
 #reset {
-  margin-top: 10px;
-  margin-left: 5px;
-  float: left;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  background: #fff;
+  border: 1px solid #000;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#reset:hover {
+  background: green;
 }
